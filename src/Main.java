@@ -14,7 +14,6 @@ public class Main {
             System.out.println("Верно");
         } else {
             System.out.println("Не верно");
-            hjhj
         }
     }
 }
