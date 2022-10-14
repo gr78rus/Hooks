@@ -8,7 +8,7 @@ public class Main {
 
         do {
             s = s.replace("()", "");
-        } while (s.contentEquals("()"));
+        } while (s.contains("()"));
 
         if (s.isEmpty()) {
             System.out.println("Верно");
